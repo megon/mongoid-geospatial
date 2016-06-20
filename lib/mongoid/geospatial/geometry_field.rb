@@ -85,7 +85,7 @@ module Mongoid
         #
         # @return [Object]
         def demongoize(obj)
-          obj && new(obj)
+          obj
         end
       end
     end
